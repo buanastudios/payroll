@@ -1,0 +1,29 @@
+- name: "Courier 1"
+  id: 001
+  subscription_fee: 100000
+  jobs:
+    - type: "same_day_regular"
+      fee: 50000
+    - type: "same_day_cargo"
+      fee: 70000
+    - type: "regular"
+      fee: 40000
+    - type: "cargo"
+      fee: 60000
+    - type: "direct_delivery"
+      fee: 45000
+
+- name: "Courier 2"
+  id: 002
+  subscription_fee: 120000
+  jobs:
+    - type: "same_day_regular"
+      fee: 55000
+    - type: "same_day_cargo"
+      fee: 75000
+    - type: "regular"
+      fee: 45000
+    - type: "cargo"
+      fee: 65000
+    - type: "direct_delivery"
+      fee: 48000

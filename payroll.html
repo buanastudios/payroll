@@ -1,0 +1,20 @@
+---
+layout: default
+title: Payroll
+---
+
+<h1>Payroll for Ahsan Express Couriers</h1>
+
+<div>
+    <label for="courierSelector">Select Courier:</label>
+    <select id="courierSelector">
+        <option value="001">Courier 1</option>
+        <option value="002">Courier 2</option>
+    </select>
+</div>
+
+<div id="payrollDetails">
+    <h3 id="totalPay">Total Pay: </h3>
+</div>
+
+<script src="{{ '/assets/js/payroll.js' | relative_url }}"></script>
